@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Demo.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,13 @@ namespace Demo
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            var userObj = new User  {UserId="Abhi", Password="Abhi" };
 
+            var login = userObj.CheckLogin();
+            if(login)
+            {
+                Label1.Text = " Abhi";
+            }
         }
     }
 }
