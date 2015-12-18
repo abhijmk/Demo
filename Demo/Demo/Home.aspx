@@ -11,7 +11,7 @@
     <div>
        <h1>Hi&nbsp;
            <asp:Label ID="Label1" runat="server"></asp:Label>
-           &nbsp;</h1>
+           &nbsp; hi</h1>
     </div>
     </form>
 </body>
