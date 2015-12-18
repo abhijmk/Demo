@@ -12,7 +12,7 @@ namespace Demo.Models
 
         public bool CheckLogin()
         {
-            if (UserId == "Abh" && Password == "Abhi")
+            if (UserId == "Abhi" && Password == "Abhi")
             {
                 return true;
             }
